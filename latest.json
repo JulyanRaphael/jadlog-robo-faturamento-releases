@@ -1,13 +1,13 @@
 {
-  "versao": "1.7.1",
+  "versao": "1.7.2",
   "data": "2026-11-13",
-  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.1/JadlogRobo-Cliente-Setup-1.7.1.exe",
-  "sha256": "770D36F6A59C3E67A013B39A46C154600F145C00BD98D752695B467C05C5F20B",
-  "tamanho": 56062273,
+  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.2/JadlogRobo-Cliente-Setup-1.7.2.exe",
+  "sha256": "0DBB493F812A423E58BF316C20EA42645DB49CF997DDFD3D3B4D34EB8AC8C139",
+  "tamanho": 56058837,
   "changelog": [
-    "CORRIGIDO: cliente com só o grupo CO (ou só LJ) preenchido agora roda todos os robôs com o próprio login.",
-    "DACTE inválido respeita o grupo LJ desativado e usa o login do CO.",
-    "Painel responsivo até telas pequenas: menu lateral recolhe para ícones, botões e campos se reorganizam.",
-    "Rolagem suave, sombras indicando mais conteúdo e botão para voltar ao topo."
+    "CORRIGIDO: as pastas de saída escolhidas no app agora são salvas e usadas pelos robôs.",
+    "Se a pasta do CSV de clientes for inválida, só ela é recusada, com aviso na tela.",
+    "Robô XML não entra mais em Iniciar Atividades nem abre turno sozinho.",
+    "Sem turno ativo no site, o painel mostra um aviso explicando o que fazer."
   ]
 }
