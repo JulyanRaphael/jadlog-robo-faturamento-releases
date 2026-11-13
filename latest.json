@@ -1,15 +1,13 @@
 {
-  "versao": "1.6.2",
+  "versao": "1.6.3",
   "data": "2026-11-12",
-  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.6.2/JadlogRobo-Cliente-Setup-1.6.2.exe",
-  "sha256": "F5DA64C1160ECCDAC94C45C4F8D160A2600BF5B93B3C6E75456AC93B82FC988C",
-  "tamanho": 57746686,
+  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.6.3/JadlogRobo-Cliente-Setup-1.6.3.exe",
+  "sha256": "564C093EE0862461122C1078A76AD2161ABDDF262468B97D8037856F597D96D3",
+  "tamanho": 57762643,
   "changelog": [
-    "NOVO: robô Organizar — agrupa os arquivos do faturamento em subpasta por cliente; roda por último no 'Executar todos' e também sozinho.",
-    "XML: cliente sem documento fiscal é detectado em ~10s, pulado e notificado no final ('não teve XML, verificar'); arquivo grande continua esperando os 600s.",
-    "XML: resumo final separa 'NÃO TEVE XML' (sem documento) de 'NÃO BAIXOU XML' (erro/timeout).",
-    "CORRIGIDO: botão 'Validar boleto' abria o painel de novo em vez de testar o boleto; agora testa o primeiro cliente de cada grupo ativo (lista do Boleto).",
-    "CORRIGIDO: código de retorno do robô não chegava ao painel (validações apareciam como ok/sem clientes indevidamente).",
-    "NOVO: verificação de atualizações (Configurações → Atualizações)."
+    "NOVO: atualização automática — o painel verifica versão nova, baixa, confere o SHA-256 e instala em silêncio, fechando e reabrindo sozinho (Configurações → Atualizações).",
+    "Sem internet, nada muda: a verificação falha silenciosamente.",
+    "Opção \"Ignorar esta versão\" e verificação no máximo uma vez por dia.",
+    "Primeira versão com self-update; envio manual do instalador só é necessário para a primeira instalação."
   ]
 }
