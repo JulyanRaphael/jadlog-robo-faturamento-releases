@@ -1,13 +1,13 @@
 {
-  "versao": "1.6.3",
-  "data": "2026-11-12",
-  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.6.3/JadlogRobo-Cliente-Setup-1.6.3.exe",
-  "sha256": "564C093EE0862461122C1078A76AD2161ABDDF262468B97D8037856F597D96D3",
-  "tamanho": 57762643,
+  "versao": "1.7.0",
+  "data": "2026-11-13",
+  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.0/JadlogRobo-Cliente-Setup-1.7.0.exe",
+  "sha256": "F861C10211F651C7DAF67D7E73D8A6DD49141E602862171CCD5F9A8B4246CAD1",
+  "tamanho": 56040873,
   "changelog": [
-    "NOVO: atualização automática — o painel verifica versão nova, baixa, confere o SHA-256 e instala em silêncio, fechando e reabrindo sozinho (Configurações → Atualizações).",
-    "Sem internet, nada muda: a verificação falha silenciosamente.",
-    "Opção \"Ignorar esta versão\" e verificação no máximo uma vez por dia.",
-    "Primeira versão com self-update; envio manual do instalador só é necessário para a primeira instalação."
+    "NOVO: visual totalmente renovado — barra lateral com menu, ícones e as cores da Jadlog.",
+    "Barra de carregamento com porcentagem e quantos clientes faltam, também no card de cada robô.",
+    "Botões animados e ícones de documento para cada robô (DACTE, Boleto, Demonstrativo, XML, Organizar).",
+    "Novas fontes e nome \"Automações e integrações Jadlog\". Os robôs funcionam exatamente como antes."
   ]
 }
