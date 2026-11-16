@@ -1,13 +1,11 @@
 {
-  "versao": "1.7.2",
-  "data": "2026-11-13",
-  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.2/JadlogRobo-Cliente-Setup-1.7.2.exe",
-  "sha256": "0DBB493F812A423E58BF316C20EA42645DB49CF997DDFD3D3B4D34EB8AC8C139",
-  "tamanho": 56058837,
+  "versao": "1.7.3",
+  "data": "2026-11-16",
+  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.3/JadlogRobo-Cliente-Setup-1.7.3.exe",
+  "sha256": "D3E47A19823126D6451367FAF9AEBBDA885B0C5B7DC2E91DC7C75D0FFADA06F7",
+  "tamanho": 38274387,
   "changelog": [
-    "CORRIGIDO: as pastas de saída escolhidas no app agora são salvas e usadas pelos robôs.",
-    "Se a pasta do CSV de clientes for inválida, só ela é recusada, com aviso na tela.",
-    "Robô XML não entra mais em Iniciar Atividades nem abre turno sozinho.",
-    "Sem turno ativo no site, o painel mostra um aviso explicando o que fazer."
+    "Novo logo do Jadlog no executável, na janela e no painel.",
+    "Barra lateral agora mostra \"Soluções tecnológicas\"."
   ]
 }
