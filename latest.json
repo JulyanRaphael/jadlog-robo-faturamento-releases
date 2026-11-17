@@ -1,11 +1,13 @@
 {
-  "versao": "1.7.3",
+  "versao": "1.7.4",
   "data": "2026-11-16",
-  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.3/JadlogRobo-Cliente-Setup-1.7.3.exe",
-  "sha256": "D3E47A19823126D6451367FAF9AEBBDA885B0C5B7DC2E91DC7C75D0FFADA06F7",
-  "tamanho": 38274387,
+  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.4/JadlogRobo-Cliente-Setup-1.7.4.exe",
+  "sha256": "9812127CFCFF6D241734914E84A518C9968FA0C1B93C864D1118D530CBE9DBDE",
+  "tamanho": 38277810,
   "changelog": [
     "Novo logo do Jadlog no executável, na janela e no painel.",
-    "Barra lateral agora mostra \"Soluções tecnológicas\"."
+    "Barra lateral agora mostra \"Soluções tecnológicas\".",
+    "Atualização automática corrigida: o painel fecha, é atualizado e reabre sozinho.",
+    "Se o painel não fechar a tempo, a atualização encerra ele à força e continua."
   ]
 }
