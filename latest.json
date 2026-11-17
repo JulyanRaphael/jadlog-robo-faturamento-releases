@@ -1,14 +1,11 @@
 {
-  "versao": "1.7.5",
+  "versao": "1.7.6",
   "data": "2026-11-16",
-  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.5/OktuCode-Automacoes-Cliente-Setup-1.7.5.exe",
-  "sha256": "7AFDC987CC2F2C9F3DF5E30D79C2638EFF121A6B577ABDA1C1BD5CA46291711C",
-  "tamanho": 62873703,
+  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.6/OktuCode-Automacoes-Cliente-Setup-1.7.6.exe",
+  "sha256": "E116D2554B631F6D926C0E8827C3770464B83D56FDA261FB0FECBA6247201DFE",
+  "tamanho": 62873682,
   "changelog": [
-    "Nome novo: OktuCode Automações (janela, instalador e executável).",
-    "Corrigido: o painel abria com erro 'No module named PySide6' nas versões 1.7.3 e 1.7.4.",
-    "Novo logo do OktuCode no executável, na janela e no painel.",
-    "Barra lateral agora mostra \"Soluções tecnológicas\".",
-    "Atualização automática corrigida: o painel fecha, é atualizado e reabre sozinho."
+    "DACTE inválido e Demonstrativo: o robô espera o arquivo ser gerado (até 600s) enquanto o site mostra \"Carregando\", sem pular o cliente (ex.: BRITANIA 040746).",
+    "Clientes sem movimento continuam sendo pulados rapidamente."
   ]
 }
