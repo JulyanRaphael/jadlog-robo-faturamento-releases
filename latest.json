@@ -1,11 +1,15 @@
 {
-  "versao": "1.7.6",
-  "data": "2026-11-16",
-  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.7.6/OktuCode-Automacoes-Cliente-Setup-1.7.6.exe",
-  "sha256": "E116D2554B631F6D926C0E8827C3770464B83D56FDA261FB0FECBA6247201DFE",
-  "tamanho": 62873682,
-  "changelog": [
-    "DACTE inválido e Demonstrativo: o robô espera o arquivo ser gerado (até 600s) enquanto o site mostra \"Carregando\", sem pular o cliente (ex.: BRITANIA 040746).",
-    "Clientes sem movimento continuam sendo pulados rapidamente."
-  ]
+    "versao":  "1.8.0",
+    "data":  "2026-11-22",
+    "url":  "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.8.0/OktuCode-Automacoes-Cliente-Setup-1.8.0.exe",
+    "sha256":  "4CE80BBBB2DB78B42AFE35157B60071F18534E84A897D4DF8195F1F8127425BF",
+    "tamanho":  63011192,
+    "changelog":  [
+                      "Tempo máximo de espera do download agora é 700s e pode ser ajustado em Configurações.",
+                      "Novo botão \"Baixar os que faltaram\": tenta de novo só os clientes que não baixaram e mostra o motivo se continuar faltando.",
+                      "Timeout ou erro de página: o robô avisa e segue; com 3 clientes seguidos com problema, para e avisa que o site está instável.",
+                      "Novo botão discreto para apagar (Lixeira) os arquivos baixados na última execução.",
+                      "DACTE inválido: novo botão \"Analisar inválidos\" (tabela, copiar e enviar por e-mail).",
+                      "Aviso de versão nova antes de executar e identificação de versão antiga."
+                  ]
 }
