@@ -1,15 +1,11 @@
 {
-    "versao":  "1.8.0",
+    "versao":  "1.8.1",
     "data":  "2026-11-22",
-    "url":  "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.8.0/OktuCode-Automacoes-Cliente-Setup-1.8.0.exe",
-    "sha256":  "4CE80BBBB2DB78B42AFE35157B60071F18534E84A897D4DF8195F1F8127425BF",
-    "tamanho":  63011192,
+    "url":  "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.8.1/OktuCode-Automacoes-Cliente-Setup-1.8.1.exe",
+    "sha256":  "63590FE086F955BC8A20D05387A121F519FA05F0CBE3F0D2ACF95E97277A6BE4",
+    "tamanho":  63015202,
     "changelog":  [
-                      "Tempo máximo de espera do download agora é 700s e pode ser ajustado em Configurações.",
-                      "Novo botão \"Baixar os que faltaram\": tenta de novo só os clientes que não baixaram e mostra o motivo se continuar faltando.",
-                      "Timeout ou erro de página: o robô avisa e segue; com 3 clientes seguidos com problema, para e avisa que o site está instável.",
-                      "Novo botão discreto para apagar (Lixeira) os arquivos baixados na última execução.",
-                      "DACTE inválido: novo botão \"Analisar inválidos\" (tabela, copiar e enviar por e-mail).",
-                      "Aviso de versão nova antes de executar e identificação de versão antiga."
+                      "Analisar inválidos: Cte e Dacte agora são copiados para o Excel como texto.",
+                      "Enviar por e-mail: a tabela vai como tabela (abre direto no Outlook clássico; senão, rascunho em HTML)."
                   ]
 }
