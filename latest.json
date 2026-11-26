@@ -1,11 +1,13 @@
 {
-    "versao":  "1.8.1",
-    "data":  "2026-11-22",
-    "url":  "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.8.1/OktuCode-Automacoes-Cliente-Setup-1.8.1.exe",
-    "sha256":  "63590FE086F955BC8A20D05387A121F519FA05F0CBE3F0D2ACF95E97277A6BE4",
-    "tamanho":  63015202,
-    "changelog":  [
-                      "Analisar inválidos: Cte e Dacte agora são copiados para o Excel como texto.",
-                      "Enviar por e-mail: a tabela vai como tabela (abre direto no Outlook clássico; senão, rascunho em HTML)."
-                  ]
+  "versao": "1.9.0",
+  "data": "2026-11-26",
+  "url": "https://github.com/JulyanRaphael/jadlog-robo-faturamento-releases/releases/download/v1.9.0/OktuCode-Automacoes-Cliente-Setup-1.9.0.exe",
+  "sha256": "4911C1E8C6E58B3F00B6FAB2410F374164920EBAD099E78DDC4C3955F7D98AEC",
+  "tamanho": 63060935,
+  "changelog": [
+    "Licença online: ative o computador uma única vez com o código OK-XXXX-XXXX-XXXX enviado pela equipe OktuCode.",
+    "A licença se renova sozinha pela internet; sem internet o painel funciona por alguns dias.",
+    "Páginas, robôs e Executar todos aparecem conforme o que foi liberado para a sua unidade.",
+    "O código mensal antigo (JD-) continua valendo até o computador ser ativado."
+  ]
 }
